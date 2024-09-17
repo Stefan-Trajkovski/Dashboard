@@ -1,0 +1,135 @@
+.dMain div{
+ border-radius: 10px;
+
+
+}
+
+.dMaind{
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.dMaind div{
+
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+
+.dMain{
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    
+  }
+
+  input::placeholder {
+    font-size: 16px; /* Set the font size for the placeholder */
+   
+}
+
+@media (min-width: 1280px) {
+  .dMain{ 
+     min-height: 94vh;
+    max-height: 94vh;
+
+
+
+}
+
+}
+
+
+@media (max-width: 1024px) {
+    .connected{
+        border-radius: 0 !important;
+    }
+    
+  }
+.dMainChild div{
+   border:2px solid red;
+   background-color: white;
+}
+.rounded-div {
+    border: 2px solid black;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 170px; /* Set a base width */
+    height: 170px; /* Set a base height */
+    overflow: hidden; /* Ensure the image fits within the circle */
+}
+.rounded-divM{
+    border: 2px solid black;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px; /* Set a base width */
+    height: 230px; /* Set a base height */
+    overflow: hidden;
+}
+.rounded-divC {
+    
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px; /* Set a base width */
+    height: 60px; /* Set a base height */
+    overflow: hidden; /* Ensure the image fits within the circle */
+}
+
+.pey {
+    /* border: 2px solid black; */
+    border-radius: 50% !important;
+    width: 100%; /* Make the image responsive to the container */
+    height: 100%; /* Make the image responsive to the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+.buttons button{
+    /* padding: 10px 10px 10px 10px; */
+    border:1px solid;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
